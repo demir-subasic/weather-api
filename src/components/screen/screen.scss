@@ -1,0 +1,22 @@
+.full-screen-page{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-top: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 30vw;
+    height: auto;
+    }
+
+    
+
+}
