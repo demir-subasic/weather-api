@@ -5,10 +5,11 @@ function App() {
   
 
   return (
-    <>
+    <div className='App'>
      <Screen />
+    </div>
         
-    </>
+    
   )
 }
 

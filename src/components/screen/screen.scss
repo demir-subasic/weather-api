@@ -1,13 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 .full-screen-page{
-    margin: 0;
-    padding: 0;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    padding-top: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
 
     .content-container {
+    background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg');
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,6 +15,24 @@
     border: 1px solid black;
     width: 30vw;
     height: auto;
+    border-radius: 15px;
+    padding-top: 9vh;
+    padding-bottom: 6vh;
+    }
+    h1 {
+        margin-bottom: 4vh;
+    }
+
+    .card-wrapper {
+        padding: 3vw;
+        text-align: center;
+
+
+        h2{
+           font-weight: bold;
+           margin-bottom: 2vh;
+           margin-bottom: 3vh;
+        }
     }
 
     

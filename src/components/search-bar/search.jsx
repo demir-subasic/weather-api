@@ -1,7 +1,7 @@
 import React from 'react'
 import './search.scss'
 
-const Search = ({handleSearch}) => {
+const Search = ({handleSearch,handleSubmit}) => {
 
     const inputHandler = (e) => {
         let data = e.target.value;
@@ -10,6 +10,7 @@ const Search = ({handleSearch}) => {
   return (
     <div className='search'>
         <input className='search-input' type="text" onChange={inputHandler}  placeholder='Select town'/>
+        <button onClick={()=> {handleSubmit()}}>Search</button>
       
     </div>
   )
